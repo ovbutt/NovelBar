@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnImage_green_plus_custom_detail_search_single"-->
+        <!--android:layout_width="19dp"-->
+        <!--android:layout_height="27dp"-->
+        <!--android:layout_marginStart="24dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:background="@color/white"-->
+        <!--android:src="@drawable/ic_green_pluse"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/txt_category_name_custom_drtail_search_single" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt_category_name_custom_drtail_search_single"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="24dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:text="Category Name"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt_nutration_name_custom_drtail_search_single"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:gravity="bottom"-->
+        <!--android:text="Nutration Name"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/btnImage_green_plus_custom_detail_search_single"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/txt_category_name_custom_drtail_search_single" />-->
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+       >
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnImage_green_plus_custom_detail_search_single1"-->
+            <!--android:layout_width="19dp"-->
+            <!--android:layout_height="27dp"-->
+            <!--android:layout_marginStart="32dp"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:src="@drawable/ic_green_pluse"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <TextView
+            android:id="@+id/txt_nutration_name_custom_drtail_search_single1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="bottom"
+            android:text="Nutration Name 1"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="7"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <!--/////////////////////////////////////////////////////////////////-->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+</android.support.constraint.ConstraintLayout>

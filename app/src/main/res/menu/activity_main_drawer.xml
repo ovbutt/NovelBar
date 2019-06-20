@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_light_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_formula_main_drawer_activity"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Formula" />
+        <item
+            android:id="@+id/nav_search_main_drawer_activity"
+            android:icon="@drawable/ic_search_black"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_my_order"
+            android:icon="@drawable/fork_knife"
+            android:title="My Order" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>

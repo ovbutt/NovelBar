@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NovalBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">No Name</string>
+    <string name="nav_header_subtitle">noName@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="caley">caley</string>
+    <string name="hydrate">Hydrate</string>
+    <string name="nutration">Nutrition</string>
+    <string name="caleries">Calories</string>
+    <string name="fat">Fat</string>
+    <string name="carbonates">Carbonates</string>
+    <string name="proteens">Proteins</string>
+    <string name="formula_name">Formula Name</string>
+    <string name="disclaimer">Disclaimer :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
